@@ -43,7 +43,7 @@ void main(){
 
   vec3 p = position;
 
-  p = rotate(p, ang * info.x * 0.001, vec3(0.0, 0.0, 1.0));
+  p = rotate(p, ang * info.x * 0.0075, vec3(0.0, 0.0, 1.0));
 
   vec4 mvPosition = modelViewMatrix * vec4(p, 1.0);
 
